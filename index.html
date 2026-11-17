@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العرض الفني والمالي لتأسيس وتشغيل قسم المبيعات</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #1a0507; /* لون أحمر قاتم */
+            color: #f3f4f6;
+        }
+        /* ملوّثات الحركات وانتقالات الموشن */
+        .motion-fade-in {
+            animation: fadeInSlide 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        @keyframes fadeInSlide {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+        .delay-5 { animation-delay: 0.5s; }
+        .delay-6 { animation-delay: 0.6s; }
+        .delay-7 { animation-delay: 0.7s; }
+        .delay-8 { animation-delay: 0.8s; }
+
+        .proposal-card {
+            background-color: rgba(45, 10, 15, 0.75);
+            border: 1px solid rgba(153, 27, 27, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .proposal-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(239, 68, 68, 0.8);
+            box-shadow: 0 15px 30px -10px rgba(127, 29, 29, 0.5);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen py-10 px-4 md:px-8">
+
+    <!-- Main Container -->
+    <main class="max-w-4xl mx-auto space-y-8">
+
+        <!-- Title Header -->
+        <header class="text-center space-y-3 motion-fade-in delay-1 pb-6 border-b border-red-950">
+            <h1 class="text-3xl md:text-5xl font-black text-red-100 tracking-tight">
+                العرض الفني والمالي لتأسيس وتشغيل قسم المبيعات
+            </h1>
+            <p class="text-red-300 text-sm md:text-base font-medium">
+                وثيقة المقترح الكاملة وفق الهيكل المتكامل لخدمات التسويق بالمشاهير
+            </p>
+        </header>
+
+        <!-- Section 1: مقدمة المشروع -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-2">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">١</span>
+                أولاً: مقدمة المشروع
+            </h2>
+            <div class="space-y-4 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>
+                    يهدف هذا المقترح إلى تأسيس قسم مبيعات احترافي ومتخصص في تسويق وبيع خدمات الشركة، من خلال بناء فريق عمل متكامل يتولى إدارة عمليات استقطاب العملاء المحتملين، والتواصل معهم، وتأهيل الفرص البيعية، وعقد الاجتماعات، وتقديم العروض التجارية، ومتابعة العملاء حتى إتمام عمليات التعاقد.
+                </p>
+                <p>
+                    تعتمد آلية العمل المقترحة على إنشاء منظومة مبيعات تبدأ من توليد البيانات والتواصل الأولي مع العملاء، مروراً بتأهيل العملاء المهتمين وتحويلهم إلى اجتماعات بيعية، وصولاً إلى إدارة عملية التفاوض والإغلاق وإتمام التعاقدات.
+                </p>
+                <p>
+                    ويراعي هذا الهيكل طبيعة السوق السعودي وخصوصية خدمات التسويق بالمشاهير، التي تعتمد بدرجة كبيرة على بناء العلاقات التجارية، وفهم احتياجات العلامات التجارية، وتقديم الحلول التسويقية المناسبة لأهدافها.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 2: الهيكل التنظيمي المقترح لقسم المبيعات -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-3">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">٢</span>
+                ثانياً: الهيكل التنظيمي المقترح لقسم المبيعات
+            </h2>
+            <div class="space-y-6 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>
+                    يتكون الهيكل المبدئي للقسم من خمسة موظفين، يتم توزيعهم على ثلاثة مستويات تشغيلية وإدارية، بما يضمن الفصل بين مهام البحث والتواصل الأولي ومهام البيع والإغلاق والإدارة.
+                </p>
+                
+                <div class="space-y-4 pr-4 border-r-2 border-red-800/50">
+                    <div>
+                        <h3 class="font-bold text-red-200 text-base mb-2">1. فريق التيلي سيلز (TeleSales)</h3>
+                        <p class="mb-2">يتكون الفريق من موظفين اثنين، أحدهما بمستوى Junior والآخر بمستوى Senior.</p>
+                        <p class="mb-2">تتمثل مسؤوليات الفريق في البحث عن الشركات والعلامات التجارية المستهدفة داخل المملكة العربية السعودية، وبناء قواعد بيانات للعملاء المحتملين، والتواصل معهم عبر المكالمات الهاتفية ووسائل الاتصال المعتمدة، والتعريف بخدمات الشركة بصورة احترافية.</p>
+                        <p class="mb-2">كما يتولى الفريق تحديد احتياجات العملاء الأولية، ومعرفة مدى اهتمامهم بخدمات التسويق بالمشاهير، وتأهيل العملاء الجادين، وحجز الاجتماعات لفريق المبيعات، وتوثيق نتائج التواصل وتحديث بيانات العملاء بشكل مستمر.</p>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80 mt-2">
+                            <li><strong>Junior TeleSales:</strong> مسؤول عن التواصل الأولي، والبحث عن العملاء، وتحديث البيانات، وتنفيذ أنشطة الاتصال اليومية.</li>
+                            <li><strong>Senior TeleSales:</strong> مسؤول عن التعامل مع العملاء ذوي الفرص الأعلى، وتحسين جودة التأهيل، ومتابعة أداء الاتصالات، والمساعدة في تدريب وتوجيه الموظف الأقل خبرة.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-red-200 text-base mb-2">2. فريق المبيعات (Sales Team)</h3>
+                        <p class="mb-2">يتكون الفريق من موظفين اثنين، أحدهما Junior Sales والآخر Senior Sales.</p>
+                        <p class="mb-2">يتولى الفريق استلام العملاء المؤهلين من قسم التيلي سيلز، وفهم طبيعة أنشطة الشركات واحتياجاتها التسويقية، وتقديم خدمات الشركة والحلول المناسبة، وإعداد العروض التجارية، وإدارة الاجتماعات والمفاوضات، ومتابعة العملاء حتى إتمام التعاقد.</p>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80 mt-2">
+                            <li><strong>Junior Sales:</strong> مسؤول عن متابعة العملاء المحتملين، وتقديم الخدمات، وإعداد العروض الأولية، ومتابعة الفرص البيعية تحت إشراف الإدارة.</li>
+                            <li><strong>Senior Sales:</strong> مسؤول عن إدارة الفرص البيعية الأكثر تعقيداً، والتفاوض مع أصحاب القرار، وإدارة الاجتماعات التجارية، والعمل على تحقيق مستهدفات المبيعات وإغلاق التعاقدات.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-red-200 text-base mb-2">3. مدير المبيعات (Sales Manager)</h3>
+                        <p class="mb-2">يتولى مدير المبيعات المسؤولية الكاملة عن تأسيس وإدارة وتشغيل القسم، ووضع الخطط البيعية، وتحديد المستهدفات، وتوزيع المهام، ومراقبة الأداء، وتطوير آليات العمل.</p>
+                        <p class="mb-2">وتشمل مسؤولياته:</p>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80 mt-2">
+                            <li>وضع الاستراتيجية البيعية المناسبة لخدمات الشركة والسوق السعودي.</li>
+                            <li>تحديد القطاعات المستهدفة وبناء خطط استقطاب العملاء.</li>
+                            <li>وضع مؤشرات الأداء الرئيسية (KPIs) لكل موظف.</li>
+                            <li>الإشراف على فريق التيلي سيلز وفريق المبيعات.</li>
+                            <li>متابعة جودة المكالمات ومعدلات تحويل العملاء.</li>
+                            <li>إدارة الاجتماعات والفرص التجارية الكبرى عند الحاجة.</li>
+                            <li>تحليل النتائج البيعية وإعداد التقارير الدورية للإدارة.</li>
+                            <li>تطوير النصوص البيعية وأساليب التواصل والتفاوض.</li>
+                            <li>متابعة خط سير العميل من أول اتصال حتى إتمام التعاقد.</li>
+                            <li>العمل على رفع معدلات الإغلاق وتحسين إنتاجية الفريق.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: آلية العمل التشغيلية -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-4">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">٣</span>
+                ثالثاً: آلية العمل التشغيلية
+            </h2>
+            <div class="space-y-4 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>تعتمد منظومة المبيعات على دورة تشغيل واضحة تضمن عدم فقدان العملاء المحتملين وتحقيق أقصى استفادة من قواعد البيانات.</p>
+                
+                <div class="space-y-3">
+                    <div class="p-4 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <h3 class="font-bold text-red-200 mb-1">المرحلة الأولى: بناء قواعد البيانات (Data Collection)</h3>
+                        <p>يتم تحديد القطاعات المستهدفة داخل المملكة العربية السعودية، مثل المطاعم، والعلامات التجارية في قطاع الأزياء، والتجميل، والعطور، والتجارة الإلكترونية، والضيافة، وغيرها من القطاعات التي يمكن أن تستفيد من خدمات التسويق بالمشاهير. بعد ذلك يتم جمع بيانات الشركات وصناع القرار، وتصنيفها وفقاً لطبيعة النشاط وحجم الشركة ومدى ملاءمتها للخدمات المقدمة.</p>
+                    </div>
+
+                    <div class="p-4 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <h3 class="font-bold text-red-200 mb-1">المرحلة الثانية: التواصل والتأهيل (Prospecting & Qualification)</h3>
+                        <p>يتولى فريق التيلي سيلز التواصل مع العملاء المحتملين، والتعريف بالشركة وخدماتها، واستكشاف احتياجاتهم التسويقية، وتحديد مدى اهتمامهم بالتعاون. يتم تسجيل جميع نتائج التواصل، وتصنيف العملاء إلى فرص مهتمة، وفرص تحتاج إلى متابعة، وعملاء غير مؤهلين حالياً.</p>
+                    </div>
+
+                    <div class="p-4 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <h3 class="font-bold text-red-200 mb-1">المرحلة الثالثة: الاجتماعات والعروض التجارية (Sales Meetings)</h3>
+                        <p>يتم تحويل العملاء المؤهلين إلى فريق المبيعات لعقد الاجتماعات، وفهم متطلباتهم بشكل أعمق، وتقديم الحلول المناسبة، مع توضيح قيمة التعاون والعائد المتوقع من الحملات التسويقية بالمشاهير.</p>
+                    </div>
+
+                    <div class="p-4 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <h3 class="font-bold text-red-200 mb-1">المرحلة الرابعة: المتابعة والإغلاق (Follow-up & Closing)</h3>
+                        <p>يتولى فريق المبيعات متابعة العروض المقدمة، والرد على استفسارات العملاء، وإدارة المفاوضات التجارية، ومعالجة الاعتراضات، وصولاً إلى إتمام التعاقد.</p>
+                    </div>
+
+                    <div class="p-4 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <h3 class="font-bold text-red-200 mb-1">المرحلة الخامسة: التقارير وتحليل الأداء</h3>
+                        <p>يتم إعداد تقارير دورية توضح حجم التواصل، وعدد العملاء المؤهلين، والاجتماعات المنعقدة، والعروض المقدمة، والتعاقدات المغلقة، ومعدلات التحويل، مع تحليل أداء كل موظف بصورة مستقلة.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: الأدوات والأنظمة التقنية المطلوبة -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-5">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">٤</span>
+                رابعاً: الأدوات والأنظمة التقنية المطلوبة
+            </h2>
+            <div class="space-y-4 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>لضمان كفاءة التشغيل وسهولة إدارة الفريق ومتابعة الأداء، يتطلب القسم توفير مجموعة من الأدوات التقنية الأساسية.</p>
+
+                <div class="space-y-4 pr-4 border-r-2 border-red-800/50">
+                    <div>
+                        <h3 class="font-bold text-red-200 text-base mb-2">1. نظام الاتصال الهاتفي (Cloud Calling System)</h3>
+                        <p class="mb-2">يتم الاعتماد على برنامج اتصال سحابي يتيح إجراء المكالمات وإدارتها من خلال حسابات مستقلة للموظفين، مع إمكانية متابعة نشاط الاتصالات وتسجيل النتائج وفقاً لإمكانات النظام المختار.</p>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80 mt-2">
+                            <li>التكلفة التشغيلية التقديرية تتراوح بين 500 و700 ريال سعودي شهرياً للمستخدم الواحد.</li>
+                            <li><strong>رسوم التأسيس والربط (Setup Fee):</strong> 300 ريال سعودي لكل رقم، تدفع مرة واحدة لإعداد وبرمجة الخادم وربط الرقم بالنظام.</li>
+                            <li><strong>نظام الاتصال التلقائي (Auto Dialer):</strong> 500 ريال سعودي لكل رقم إضافي، تدفع مرة واحدة عند التأسيس، وهي خدمة اختيارية تهدف إلى أتمتة عملية الاتصال وتحسين كفاءة تنفيذ المكالمات.</li>
+                            <li><strong>المستخدم الإضافي (Extra User):</strong> 50 ريالاً سعودياً شهرياً لكل موظف أو تحويلة إضافية، لدعم العمل المتزامن داخل النظام.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-red-200 text-base mb-2">2. نظام إدارة العملاء (CRM)</h3>
+                        <p class="mb-2">يتم استخدام نظام لإدارة علاقات العملاء بهدف توحيد بيانات العملاء المحتملين، وتسجيل المكالمات ونتائج التواصل، وتوزيع الفرص البيعية، ومتابعة مراحل التفاوض والتعاقد.</p>
+                        <p class="mb-2">كما يتيح النظام للإدارة متابعة أداء الفريق من خلال تقارير توضح عدد العملاء الجدد، والاجتماعات، والفرص المفتوحة، ونسب الإغلاق.</p>
+                        <p>يتم تحديد النظام المناسب وفقاً للميزانية واحتياجات التشغيل، ولم يتم إدراج تكلفته ضمن الميزانية الحالية لعدم تحديد المنصة المختارة.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-red-200 text-base mb-2">3. أدوات إدارة ومتابعة الأداء</h3>
+                        <p>يتم استخدام أدوات إدارة المهام والجداول والتقارير لمتابعة أنشطة الموظفين اليومية والأسبوعية، وتنظيم قواعد البيانات، وتوثيق المستهدفات والنتائج، وضمان وضوح المسؤوليات بين أفراد الفريق.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: الرواتب والتكاليف البشرية -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-6">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">٥</span>
+                خامساً: الرواتب والتكاليف البشرية
+            </h2>
+            <div class="space-y-4 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>تم تحديد الرواتب المقترحة وفقاً للمستويات الوظيفية المطلوبة، مع مراعاة أن تكون قابلة للتطوير وفقاً لخبرة الموظف ومستوى أدائه.</p>
+                <ul class="list-disc list-inside space-y-2 text-red-100/90 pr-2">
+                    <li><strong>Junior Sales:</strong> من 5,000 إلى 6,000 جنيه مصري شهرياً.</li>
+                    <li><strong>Senior Sales:</strong> من 8,000 إلى 10,000 جنيه مصري شهرياً.</li>
+                    <li><strong>Junior TeleSales:</strong> 5,000 جنيه مصري شهرياً.</li>
+                    <li><strong>Senior TeleSales:</strong> 7,000 جنيه مصري شهرياً.</li>
+                    <li><strong>Sales Manager:</strong> من 25,000 إلى 30,000 جنيه مصري شهرياً.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 6: خطة التأسيس والتشغيل الأولية -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-7">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">٦</span>
+                سادساً: خطة التأسيس والتشغيل الأولية
+            </h2>
+            <div class="space-y-4 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>يتم تنفيذ المشروع على مراحل لضمان تأسيس القسم بصورة منظمة:</p>
+                
+                <div class="space-y-3">
+                    <div class="p-3 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <strong class="text-red-200 block mb-1">المرحلة الأولى: التأسيس والتجهيز</strong>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80">
+                            <li>اعتماد الهيكل التنظيمي والميزانية.</li>
+                            <li>تحديد الوصف الوظيفي لكل منصب.</li>
+                            <li>تجهيز أنظمة الاتصال وإدارة العملاء.</li>
+                            <li>إعداد قواعد البيانات الأولية.</li>
+                            <li>إعداد النصوص البيعية وسيناريوهات التواصل.</li>
+                            <li>تحديد القطاعات المستهدفة.</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-3 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <strong class="text-red-200 block mb-1">المرحلة الثانية: التوظيف والتدريب</strong>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80">
+                            <li>استقطاب أعضاء فريق التيلي سيلز والمبيعات.</li>
+                            <li>تقييم مهارات التواصل والتفاوض.</li>
+                            <li>تدريب الفريق على خدمات الشركة وطبيعة السوق السعودي.</li>
+                            <li>تدريب الموظفين على استخدام الأنظمة والأدوات.</li>
+                            <li>توحيد آلية تسجيل البيانات ومتابعة العملاء.</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-3 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <strong class="text-red-200 block mb-1">المرحلة الثالثة: التشغيل التجريبي</strong>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80">
+                            <li>بدء عمليات التواصل مع العملاء المستهدفين.</li>
+                            <li>اختبار جودة قواعد البيانات.</li>
+                            <li>قياس معدلات الاستجابة والتأهيل.</li>
+                            <li>تقييم أداء الموظفين.</li>
+                            <li>تطوير النصوص البيعية وفقاً لنتائج السوق.</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-3 bg-red-950/40 rounded-xl border border-red-900/30">
+                        <strong class="text-red-200 block mb-1">المرحلة الرابعة: التشغيل والتحسين المستمر</strong>
+                        <ul class="list-disc list-inside space-y-1 text-red-200/80">
+                            <li>اعتماد المستهدفات الشهرية.</li>
+                            <li>متابعة الأداء بصورة يومية وأسبوعية.</li>
+                            <li>تحليل نتائج الاجتماعات والتعاقدات.</li>
+                            <li>تحسين معدلات التحويل والإغلاق.</li>
+                            <li>تطوير الفريق وتوسيع قاعدة العملاء تدريجياً.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: مؤشرات قياس الأداء (KPIs) -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-8">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">٧</span>
+                سابعاً: مؤشرات قياس الأداء (KPIs)
+            </h2>
+            <div class="space-y-4 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>يتم تقييم كفاءة القسم وفقاً لمجموعة من المؤشرات الأساسية، تشمل:</p>
+                <ul class="list-disc list-inside space-y-2 text-red-100/90 pr-2">
+                    <li>عدد العملاء الجدد الذين تمت إضافتهم إلى قاعدة البيانات.</li>
+                    <li>عدد المكالمات ومحاولات التواصل اليومية.</li>
+                    <li>معدل الوصول إلى صناع القرار.</li>
+                    <li>نسبة العملاء المؤهلين من إجمالي العملاء المستهدفين.</li>
+                    <li>عدد الاجتماعات التي تم حجزها وعقدها.</li>
+                    <li>عدد العروض التجارية المقدمة.</li>
+                    <li>معدل تحويل الاجتماعات إلى فرص تعاقد.</li>
+                    <li>عدد التعاقدات التي تم إغلاقها.</li>
+                    <li>إجمالي قيمة المبيعات الشهرية.</li>
+                    <li>متوسط قيمة التعاقد ومعدل الإغلاق.</li>
+                </ul>
+                <p class="mt-3">ويتم تحديد المستهدفات الرقمية النهائية بعد فترة التشغيل التجريبي، وبناءً على متوسط قيمة التعاقد وطبيعة دورة البيع لدى الشركة.</p>
+            </div>
+        </section>
+
+        <!-- Section 8: التكلفة الإجمالية للمشروع -->
+        <section class="proposal-card rounded-2xl p-6 md:p-8 motion-fade-in delay-8">
+            <h2 class="text-xl md:text-2xl font-bold text-red-200 mb-4 flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-red-900/80 text-red-300 flex items-center justify-center text-sm font-bold">٨</span>
+                ثامناً: التكلفة الإجمالية للمشروع
+            </h2>
+            <div class="space-y-4 text-red-100/90 leading-relaxed text-sm md:text-base font-light">
+                <p>
+                    تم إعداد الميزانية التقديرية وفقاً للاحتياج المبدئي المكون من خمسة موظفين، مع توضيح الحد الأدنى والحد الأعلى للرواتب، والتكاليف التقنية بالريال السعودي.
+                </p>
+                <p>
+                    الهدف من هذا الهيكل هو بناء قسم مبيعات قابل للتوسع، يمتلك القدرة على استقطاب عملاء جدد، وتوليد فرص تجارية مستمرة، وتحويل خدمات التسويق بالمشاهير إلى مبيعات وتعاقدات فعلية، مع وجود منظومة إدارية واضحة لمتابعة الأداء وقياس النتائج.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-red-400/60 text-xs mt-12 border-t border-red-950 motion-fade-in">
+        <p>جميع الحقوق محفوظة © العرض الفني والمالي لتأسيس وتشغيل قسم المبيعات</p>
+    </footer>
+
+</body>
+</html>
